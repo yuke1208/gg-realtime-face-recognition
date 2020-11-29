@@ -1,4 +1,6 @@
 # 基于 Greengrass 端侧实时人脸检测
+
+## Greengrass 实时视频流检测人脸的实现思路
 Greengrass很容易部署在设备侧/网关侧，同时也提供良好的运行时环境，针对安防监控厂商Camera设备可以结合Greengrass来实现边缘侧AI/ML场景。这里通过树莓派部署Greengrass跑dlib库从摄像机实时视频流中抽取视频帧来实现人脸识别和比对。
 
 ## 准备工作：
