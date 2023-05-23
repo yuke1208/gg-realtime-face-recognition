@@ -96,7 +96,7 @@ clientS3 = boto3.client(
 )
 
 bucket='greengrass-detect-realtime-video'
-filesUrl = ['<RASPBERRYPI_LOCAL_FACE_IMAGE>']
+filesUrl = /home/pi/<RASPBERRYPI_LOCAL_FACE_IMAGE>.jpg
 faces_dict = {}
 
 def frame_input(q):
